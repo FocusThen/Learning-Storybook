@@ -1,4 +1,16 @@
-import './style';
-import App from './components/app';
+import { h } from 'preact'
+import { Router } from 'preact-router'
 
-export default App;
+import Home from './routes/home'
+import { GlobalStyle } from './utils'
+
+const App = () => (
+  <div id="app">
+    <GlobalStyle />
+    <Router>
+      <Home path="/" />
+    </Router>
+  </div>
+)
+
+export default App

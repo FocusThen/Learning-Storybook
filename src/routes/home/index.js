@@ -1,11 +1,16 @@
-import { h } from 'preact';
-import style from './style.css';
+import { h } from 'preact'
+import {
+  PrimaryButton,
+  SecondaryButton,
+  TertiaryButton,
+} from '../../components/Button'
 
 const Home = () => (
-	<div class={style.home}>
-		<h1>Home</h1>
-		<p>This is the Home component.</p>
-	</div>
-);
+  <div>
+    <PrimaryButton small>Hello world</PrimaryButton>
+    <SecondaryButton>Hello world</SecondaryButton>
+    <TertiaryButton>Hello world</TertiaryButton>
+  </div>
+)
 
-export default Home;
+export default Home
