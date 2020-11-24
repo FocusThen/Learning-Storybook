@@ -7,7 +7,7 @@ import {
 
 const Home = () => (
   <div>
-    <PrimaryButton small>Hello world</PrimaryButton>
+    <PrimaryButton warning>Hello world</PrimaryButton>
     <SecondaryButton>Hello world</SecondaryButton>
     <TertiaryButton>Hello world</TertiaryButton>
   </div>

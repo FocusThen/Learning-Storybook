@@ -17,6 +17,17 @@ const BUTTON_MODIFIERS = (props) => {
         padding:16px 24px;
       `
   }
+  if (props.warning) {
+    return modifier('warning')`
+        background-color:${defaultTheme.status.warningColor};
+        color:${defaultTheme.textColorInverted};
+
+        &:hover, &:focus {
+          backgroud-color: ${defaultTheme.status.warningColorHover};
+          outline: 3px solid ${defaultTheme.status.war}
+        }
+      `
+  }
 }
 
 const Button = styled.button`
