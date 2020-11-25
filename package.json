@@ -31,6 +31,7 @@
     "preact": "^10.3.2",
     "preact-render-to-string": "^5.1.4",
     "preact-router": "^3.2.1",
+    "react-spring": "^8.0.27",
     "styled-components": "^4.4.0",
     "styled-components-modifiers": "^1.2.5"
   },
